@@ -1,0 +1,15 @@
+.box {
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+
+.red {
+  background-color: #ff0f0f;
+}
+
+/* TODO */
+.box:hover {
+  width: 200px;
+  height: 200px;
+}

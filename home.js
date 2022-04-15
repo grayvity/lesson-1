@@ -1,11 +1,17 @@
-var left = 0;
-const box = document.getElementById("box1");
-
-function move() {
-  left += 10;
-  box.style.left = left + "px";
+function hide(element) {
+  console.log("hide");
+  element.remove();
 }
 
-function changeColor() {
-  box.style.backgroundColor = "green";
+const boxList = document.getElementsByClassName("box");
+
+for (var i = 0; i < boxList.length; i++) {
+  boxList[i].style.left = Math.floor(Math.random() * 650);
+  boxList[i].style.top = Math.floor(Math.random() * 450);
+  // 1. random color
+}
+
+// 2. box уудаа хүссэн тоогоор үүсгэдэг функц
+function createBox(number) {
+  // TODO
 }

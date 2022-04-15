@@ -1,15 +1,16 @@
 <html>
   <head>
-    <title>Lesson 1</title>
+    <title>Lesson 2</title>
     <link rel="stylesheet" href="home.css" />
   </head>
   <body>
-    <!-- 1. move button дээр дарахад баруун тийшээ хөдлөнө -->
-    <!-- 2. Change color button дээр дарахад өнгийг нь өөрчилнө -->
-    <!-- 3. Mouse hover хийхэд хэмжээ томроно -->
-    <div id="box1" class="box red"></div>
-    <button onclick="move()">Move</button>
-    <button onclick="changeColor()">Change color</button>
+    <h3 style="text-align: center">Game</h3>
+    <div class="container">
+      <div class="box red" onclick="hide(this)"></div>
+      <div class="box red" onclick="hide(this)"></div>
+      <div class="box red" onclick="hide(this)"></div>
+      <div class="box red" onclick="hide(this)"></div>
+    </div>
   </body>
-  <script type="text/javascript" src="home.js"></script>
+  <script src="home.js"></script>
 </html>

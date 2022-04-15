@@ -1,15 +1,18 @@
 .box {
-  position: relative;
+  position: absolute;
   width: 150px;
   height: 150px;
 }
 
 .red {
-  background-color: #ff0f0f;
+  background-color: red;
 }
 
-/* TODO */
-.box:hover {
-  width: 200px;
-  height: 200px;
+.container {
+  position: relative;
+  border: solid 4px;
+  border-color: black;
+  width: 800px;
+  height: 600px;
+  margin: 30px;
 }

@@ -9,6 +9,13 @@
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.gamebox {
   position: relative;
   border: solid 4px;
   border-color: black;

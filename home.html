@@ -4,8 +4,13 @@
     <link rel="stylesheet" href="home.css" />
   </head>
   <body>
-    <h3 style="text-align: center">Game</h3>
-    <div id="container" class="container"></div>
+    <div class="container">
+      <h1>Game</h1>
+      <h1>Score:<span id="score">0</span> Timer: <span id="time">5</span></h1>
+      <div id="gamebox" class="gamebox">
+        <div class="box red" id="movebox" onclick="hide(this)"></div>
+      </div>
+    </div>
   </body>
   <script src="home.js"></script>
 </html>

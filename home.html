@@ -5,10 +5,26 @@
   </head>
   <body>
     <div class="container">
-      <h1>Game</h1>
-      <h1>Score:<span id="score">0</span> Timer: <span id="time">5</span></h1>
+      <h1>
+        Level:
+        <span id="level" style="color: #53e4c0; font-size: xx-large">1</span>
+      </h1>
+      <h2>
+        Score:<span id="score" style="color: #53e4c0; font-size: xx-large"
+          >0</span
+        >
+        Timer:
+        <span id="time" style="color: #53e4c0; font-size: xx-large">0</span>
+      </h2>
+      <button class="btn" onclick="startGame()" id="startBtn">
+        Start Game
+      </button>
       <div id="gamebox" class="gamebox">
-        <div class="box red" id="movebox" onclick="hide(this)"></div>
+        <div class="pyro" id="firework" style="display: none">
+          <div class="before"></div>
+          <div class="after"></div>
+        </div>
+        <div class="pad" id="pad"></div>
       </div>
     </div>
   </body>
